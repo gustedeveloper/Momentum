@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@angular/cli": "^19.2.11"
-  },
-  "devDependencies": {
-    "sass": "^1.87.0"
-  }
-}
