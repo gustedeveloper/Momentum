@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "layout-mini-app": {
+    "momentum": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "layout-mini-app:build:production"
+              "buildTarget": "momentum:build:production"
             },
             "development": {
-              "buildTarget": "layout-mini-app:build:development"
+              "buildTarget": "momentum:build:development"
             }
           },
           "defaultConfiguration": "development"
